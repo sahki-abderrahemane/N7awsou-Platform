@@ -10,7 +10,7 @@ async function bootstrap() {
 
   // Enable CORS for frontend applications
   app.enableCors({
-    origin: "http://localhost:3001",
+    origin: "https://n7awsou-platform.vercel.app/",
     credentials: true
   });
 
